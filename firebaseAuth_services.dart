@@ -20,10 +20,9 @@ class FirebaseAuthServices {
 
     if (user != null && !user.emailVerified) {
       var actionCodeSettings = ActionCodeSettings(
-        url: 'https://gre0123.page.link/?email=${user.email}',
-        // dynamicLinkDomain: "gre0123.page.link",
+        url: 'Link',
         androidInstallApp: true,
-        androidPackageName: "com.example.gre_words",
+        androidPackageName: "appname",
         androidMinimumVersion: '1',
         handleCodeInApp: true,
       );
